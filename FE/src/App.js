@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import InputForm from "./exercise/InputForm";
 import ToDoList from "./exercise/ToDoList";
 import { useDispatch } from "react-redux";
-import { loadData, saveData } from "./redux/reducers/LocalData";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import axios from "axios";
 import Update from "./exercise/Update";
